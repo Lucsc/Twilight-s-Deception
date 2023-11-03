@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Door
+  - NPC
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -38,6 +41,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 197339773
+    locked: 0
+  - name: Shadows
+    uniqueID: 3381917381
+    locked: 0
+  - name: Over
+    uniqueID: 3257060131
+    locked: 0
+  - name: OverOver
+    uniqueID: 524557207
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3983054711
     locked: 0
