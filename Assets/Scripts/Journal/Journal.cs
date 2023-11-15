@@ -20,22 +20,21 @@ public class Journal : MonoBehaviour
 
     public GameObject journalUI;
     public TMP_Text journalText;
-    public Decisions playerDecisions;
     private int count;
     private string text;
 
     private void Start()
     {
-        count = playerDecisions.playerDecisions.Count;
-
+        count = Decisions.instance.playerDecisions.Count;
+        UpdateJournal();
     }
 
     public void Update()
     {
-        if (count != playerDecisions.playerDecisions.Count)
+        if (count != Decisions.instance.playerDecisions.Count)
         {
             UpdateJournal();
-            count = playerDecisions.playerDecisions.Count;
+            count = Decisions.instance.playerDecisions.Count;
         }
     }
 
@@ -44,7 +43,7 @@ public class Journal : MonoBehaviour
         text = string.Empty;
         foreach(Entries entry in entries)
         {
-            if (playerDecisions.playerDecisions.Contains(entry.clueID))
+            if (Decisions.instance.playerDecisions.Contains(entry.clueID))
             {
                 text += "-" + entry.journalEntry + "\n";
             }

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da327a5c6a4ff84c8b9eb95e1bcb5cd, type: 3}
   m_Name: PlayerDecisions
   m_EditorClassIdentifier: 
-  playerDecisions: 45000000
+  playerDecisions: 

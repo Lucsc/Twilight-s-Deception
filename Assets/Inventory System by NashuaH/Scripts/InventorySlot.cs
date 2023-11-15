@@ -19,7 +19,6 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     // The remove Button is where the player clicks to remove the item in this slot
     public Button removeButton;
 
-    public Decisions decisions;
 
 
     // The following function is called everytime an item is added or removed from the inventory
@@ -83,7 +82,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         // Removes item from the Inventory Script and consequently updates the UI(This occurs inside of RemoveItem())
         // Currently removing one piece on stackable objects
-        decisions.playerDecisions.Remove(Inventory.instance.itemList[Inventory.instance.itemList.IndexOf(item)].ID);
+        Decisions.instance.playerDecisions.Remove(Inventory.instance.itemList[Inventory.instance.itemList.IndexOf(item)].ID);
         Inventory.instance.RemoveItem(Inventory.instance.itemList[Inventory.instance.itemList.IndexOf(item)], 1);
     }
 }

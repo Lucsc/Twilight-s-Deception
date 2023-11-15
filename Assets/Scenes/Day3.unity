@@ -1122,6 +1122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb29afccd516ea409d62520390fac20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  decisions: {fileID: 11400000, guid: f74cc4c5dd21c374e84fd1ad0e17c0d5, type: 2}
+  day: 3
+  day1: 
+  day2: 
+  day3: 
 --- !u!4 &449867296
 Transform:
   m_ObjectHideFlags: 0

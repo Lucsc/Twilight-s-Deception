@@ -21,7 +21,6 @@ public class Movement : MonoBehaviour
     private Item currentItem;
     private GameObject currentItemPrefab;
 
-    public Decisions playerDecisions;
 
     private void Start()
     {
@@ -46,7 +45,8 @@ public class Movement : MonoBehaviour
             else if(currentItem != null)
             {
                 Inventory.instance.AddItem(currentItem, 1);
-                playerDecisions.playerDecisions.Add(currentItem.ID);
+                GameManager.instance.inventoryItems.Add(currentItem);
+                Decisions.instance.playerDecisions.Add(currentItem.ID);
                 currentItemPrefab.SetActive(false);
             }
         }

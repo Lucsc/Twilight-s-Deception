@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -17,8 +18,10 @@ public class Timer : MonoBehaviour
     private float flashDuration = 1f;
 
     private bool isPaused;
+    private bool isDone;
     void Start()
     {
+        isDone = false;
         ResetTimer();
         isPaused = false;
     }
@@ -103,7 +106,19 @@ public class Timer : MonoBehaviour
             flashTimer -= Time.deltaTime;
             SetTextDisplay(true);
         }
+        if (!isDone)
+        {
+            StartCoroutine(EndDay());
+        }
+        
         endScreen.SetActive(true);
+    }
+
+    IEnumerator EndDay()
+    {
+        isDone = true;
+        yield return new WaitForSeconds(3);
+        GameManager.instance.EndDay();
     }
 
     private void SetTextDisplay(bool enabled)

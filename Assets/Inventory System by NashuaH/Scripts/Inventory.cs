@@ -8,7 +8,20 @@ using UnityEngine.UI;
 // USE THIS SCRIPT by attaching it to any GameObject(Ex. PlayerPrefab, EmptyObject)
 public class Inventory : MonoBehaviour
 {
- 
+
+    #region Singleton
+
+    public static Inventory instance;
+
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+
+    }
+
+    #endregion
+
     // The items on the inventory
     public List<Item> itemList = new List<Item>();
 
@@ -24,16 +37,7 @@ public class Inventory : MonoBehaviour
   List<InventorySlot> slotList = new List<InventorySlot>();
 
 
-    #region Singleton
 
-    public static Inventory instance;
-
-    void Awake()
-    {
-        instance = this;
-    }
-
-    #endregion
 
 
     public void Start()
@@ -44,7 +48,10 @@ public class Inventory : MonoBehaviour
         {
             slotList.Add(child);
         }
-
+        foreach (Item item in GameManager.instance.inventoryItems)
+        {
+            AddItem(item, 1);;
+        }
 
 
     }
