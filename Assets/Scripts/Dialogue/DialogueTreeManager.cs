@@ -56,6 +56,10 @@ public class DialogueTreeManager : MonoBehaviour
             decisions.playerDecisions.Add(currentDialogue.branches[currentBranchId].clueID);
         }     
         timer.RemoveTime(currentDialogue.branches[currentBranchId].timePenalty);
+        if (currentDialogue.branches[currentBranchId].givesItem) {
+            Inventory.instance.AddItem(currentDialogue.branches[currentBranchId].item, 1);
+            decisions.playerDecisions.Add(currentDialogue.branches[currentBranchId].item.ID);
+        }
         foreach (DialogueSection section in Array.Find(currentDialogue.branches, item => item.branchID == currentBranchId).sections) 
         {
             //Debug.Log(currentBranchId);
