@@ -1,0 +1,2265 @@
+fileFormatVersion: 2
+guid: b3b7426634185bf4da0b5298881103e5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 33
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Generic Children NPCs_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 844
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ae946f5b6d3514a8dabf032bfc46a4
+      internalID: 1908568647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 844
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dff53b63be9f2a46a6b21852e888c90
+      internalID: -838202751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 844
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c84951bc48a9f40a69410d70cfc7ca
+      internalID: -1894184631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 844
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beda72200e2230459c941210c729c86
+      internalID: -1663591652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 844
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8d4011287f4364483de27f2f5d1985
+      internalID: 1753459679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 844
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593ddc278a795e4897aaea622f37aba
+      internalID: 829297845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 844
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd68817c19414e42b529fbea3f864c9
+      internalID: 761081363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 844
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dd12f17d860a742812523ced3f8310
+      internalID: -571444361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 844
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77e441554b23974eafc7e5159b3baba
+      internalID: 1137379269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 844
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab33fc578c89f6a41aab4e212ecc0f20
+      internalID: 369189077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 844
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bccaf3e16712d541b024b27d4181319
+      internalID: 1195200651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_11
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 844
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4229c931a03928549b9f112a130e142d
+      internalID: -102004158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 724
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653983378ee6b04ca7c8d6fa46be5da
+      internalID: -1127923184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 724
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21550c2377749e248aca05b2c1110c02
+      internalID: -261526783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 724
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90900674a29ee6d4094651aab62eba73
+      internalID: -955727476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 724
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc521b2a1c3dfdd4f97f06ada8a7172f
+      internalID: 1279164577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 724
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24741914bc18b3b448bbbafb616f6fb3
+      internalID: 1553620755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 724
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa92353f6cd3bc14687bb8ad6bbfbae4
+      internalID: 320703757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 724
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df127bf08e8c5f848bc67ae63a864d19
+      internalID: 822993954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 724
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817827e3f2603f54fa06bdc21c4c22fa
+      internalID: 1914578933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_20
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 724
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abb755ad91216641a4c694d578f6ad7
+      internalID: -881941764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_21
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 724
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365a5583428c76445a5785673aa5df9a
+      internalID: -616778663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_22
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 724
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad18f03e173cb844af721d7d84aab6f
+      internalID: -595332725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_23
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 724
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118865b0502c6404cae70fb4b82cdd31
+      internalID: 730580047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 604
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9fb6e29c5427943aa882e4244e5e25
+      internalID: 619367226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 604
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ea714ff4d005f4699b8d55e9d64cac
+      internalID: 135542317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 604
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99784d9b2829ec4799d611846470fb7
+      internalID: -464568729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 604
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2599984b44e9b449472e4cfd08c9f5
+      internalID: -1163459804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 604
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5bd73769e2b346a13f0750fc43aa4
+      internalID: -1434005915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 604
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ab71a3a5d4ac4dab65f6c6337296a
+      internalID: 925077481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_30
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 604
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c653687c1c5258429d1646921f28f98
+      internalID: 1394992807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_31
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 604
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e9fe0e47ba19b41ae28427cada3db8
+      internalID: -1004319878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_32
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 604
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50e767d8e42a744d9d21d3e6b734d34
+      internalID: -133112711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_33
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 604
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9429ba03243d6794e9f06723cb3cb875
+      internalID: -1922777043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_34
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 604
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801c23a9accb37749979868d6cf00cbe
+      internalID: -1612020735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_35
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 604
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dad0e8051769a4bbb6627a225b9246
+      internalID: -844765296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 484
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3435ecb516e3dff47ac525c78e450689
+      internalID: -1398936259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 484
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a80ea868babdc4c811e6779faab076
+      internalID: -1900312301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 484
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754bb6986b81fc14183980a21b727a12
+      internalID: 1811625449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_39
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 484
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0eae624d0ed9a4c8f6aad706474cd8
+      internalID: 2113238053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 484
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547cf828d20b65a48bef8764d47d2175
+      internalID: 1320931321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 484
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426ae60e884d29409e1788b4539c8d4
+      internalID: 296555524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_42
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 484
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a47d1418a481f4dbd5934bfc90b338
+      internalID: -1611624570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 484
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e975d52f27af479d17512fda2bf4c
+      internalID: 1973437781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_44
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 484
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ebe3f10ae7a33429f2afd3d5488d79
+      internalID: 1453066919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_45
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 484
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b86704276f3c449134b3917500ba3
+      internalID: 45560048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_46
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 484
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab92beffcbdca742a483edf5b8d0a0f
+      internalID: 1300996813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_47
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 484
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e00018f10a7340805a0ffc8cb2818
+      internalID: -339363870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 364
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4cd8d81caf91441a62d510d49934f0
+      internalID: -2120871962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 364
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5987651349c0f439fbf6ece672c985
+      internalID: 258119935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_50
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 364
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b13e7e803699743bb253e129029371
+      internalID: -949506741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_51
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 364
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963cab0f1c0fa4e4cb5ba84465212d5f
+      internalID: 1105709070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 364
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77183013660cef646b9e09b4d5a4ccc2
+      internalID: -410866450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_53
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 364
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f731c3ca4cf34ab130d7ff135d55e
+      internalID: 95814525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_54
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 364
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77246992858c9014cbb90936a94455f7
+      internalID: -663358187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_55
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 364
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2820e4fe46b92541bbf0b55dfd05789
+      internalID: -1578359020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_56
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 364
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971015166a8db0e4ebe607ba89d65690
+      internalID: -206277283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_57
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 364
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b28b094c693e438bb7307318272b2
+      internalID: -1006275670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_58
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 364
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3967adb1b639a204392c7c61905247fb
+      internalID: -337949446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_59
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 364
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07264c4b085f3cd4d8fd4759d95bcc0d
+      internalID: -641465660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 244
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b90d5c37ef943843bc78f4987baf48c
+      internalID: 2142217464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 244
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f094d447c478f6948b8823cd9f47787c
+      internalID: -474583098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_62
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 244
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372cce48e804a043bb11df57d621f9d
+      internalID: -1521405224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_63
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 244
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c415ab690e7d24ab9c65e03fc295a8
+      internalID: 285470192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 244
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75036949f3f0d434cbbc824a27b12414
+      internalID: -140758166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_65
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 244
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72757278659812340989ea21a26bb91f
+      internalID: -1953429713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_66
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 244
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f4e57d15a097b40b18456cdea0df93
+      internalID: 1947347473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_67
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 244
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bffb1fdb454dc46827189c501bdd89
+      internalID: 380068933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_68
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 244
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d7f69c35e710b4e9617789d5702ba3
+      internalID: 492988911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_69
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 244
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca111f186348d4fbe6a85cefa951ab
+      internalID: 1176901382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_70
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 244
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de9621ea2c5ae4cb9f46f8760b3cc1
+      internalID: 163159731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 244
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248ef5a11a192924299e3a067743c31b
+      internalID: 541826366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 124
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0619aab53e15240ac9e9455974cc61
+      internalID: -697431479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_73
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 124
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5948d6fc1456c1428c07e44ccb8bea9
+      internalID: -665500516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_74
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 124
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6609a0b4fb5445b4cb56cd411e16975c
+      internalID: -2002347636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_75
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 124
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa89bd4692234247b8008c38a528e97
+      internalID: -819609819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_76
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 124
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972dce9a1d96a7f41897bd14c7ba9516
+      internalID: 1067315677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_77
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 124
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756f88b00ab92c340bad2af481b89373
+      internalID: 1301598059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_78
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 124
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df481dba1e99a94ebe8781d06175545
+      internalID: 653792169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_79
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 124
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242f62bc9480d34449558c392f095658
+      internalID: -1509322507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_80
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 124
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e7fc379df61b48ad4a5b889536358
+      internalID: 1429524123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_81
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 124
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeda23f5fec16f43b34a601bb5564fd
+      internalID: 1522886017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_82
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 124
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c435a0a5f7fc8a45875d4d57f6911fb
+      internalID: -159280133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 124
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff2ceea3f0e800448692316667c6d3c
+      internalID: 511418270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27810f7db65eb24bb29e11ec3132ec4
+      internalID: -1817998334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_85
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 4
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cc0c22b4e89a24aaf025430b7b4478
+      internalID: -1760379829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d673fcb0e66de4a9ea78d4845da445
+      internalID: 636236653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_87
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891eef39dfaeaa34f9d8447ca683035c
+      internalID: 1733899628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_88
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 4
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975410a6f46c78d4a828e1e692b09966
+      internalID: -435475359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_89
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aba39970303a642b4fec02fc2ab47c
+      internalID: 940879339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_90
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 4
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff148bd29a9a842428e7dc3e29e2fb69
+      internalID: -1036569918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_91
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 4
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb15fa079adaf9544aace8a9bd290ec1
+      internalID: -670987430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_92
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 4
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dba13e9b91ab54a9267c6887edc50f
+      internalID: 832976291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_93
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 4
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860013872207984dbc28a6e14dd590d
+      internalID: 1073619288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_94
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 4
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1570ddfd3326f684c89bc1515b9f0c28
+      internalID: -323035097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Children NPCs_95
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 4
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34e1c7fe013b884c81fae1df7ef21b2
+      internalID: 1245482209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Generic Children NPCs_0: 1908568647
+      Generic Children NPCs_1: -838202751
+      Generic Children NPCs_10: 1195200651
+      Generic Children NPCs_11: -102004158
+      Generic Children NPCs_12: -1127923184
+      Generic Children NPCs_13: -261526783
+      Generic Children NPCs_14: -955727476
+      Generic Children NPCs_15: 1279164577
+      Generic Children NPCs_16: 1553620755
+      Generic Children NPCs_17: 320703757
+      Generic Children NPCs_18: 822993954
+      Generic Children NPCs_19: 1914578933
+      Generic Children NPCs_2: -1894184631
+      Generic Children NPCs_20: -881941764
+      Generic Children NPCs_21: -616778663
+      Generic Children NPCs_22: -595332725
+      Generic Children NPCs_23: 730580047
+      Generic Children NPCs_24: 619367226
+      Generic Children NPCs_25: 135542317
+      Generic Children NPCs_26: -464568729
+      Generic Children NPCs_27: -1163459804
+      Generic Children NPCs_28: -1434005915
+      Generic Children NPCs_29: 925077481
+      Generic Children NPCs_3: -1663591652
+      Generic Children NPCs_30: 1394992807
+      Generic Children NPCs_31: -1004319878
+      Generic Children NPCs_32: -133112711
+      Generic Children NPCs_33: -1922777043
+      Generic Children NPCs_34: -1612020735
+      Generic Children NPCs_35: -844765296
+      Generic Children NPCs_36: -1398936259
+      Generic Children NPCs_37: -1900312301
+      Generic Children NPCs_38: 1811625449
+      Generic Children NPCs_39: 2113238053
+      Generic Children NPCs_4: 1753459679
+      Generic Children NPCs_40: 1320931321
+      Generic Children NPCs_41: 296555524
+      Generic Children NPCs_42: -1611624570
+      Generic Children NPCs_43: 1973437781
+      Generic Children NPCs_44: 1453066919
+      Generic Children NPCs_45: 45560048
+      Generic Children NPCs_46: 1300996813
+      Generic Children NPCs_47: -339363870
+      Generic Children NPCs_48: -2120871962
+      Generic Children NPCs_49: 258119935
+      Generic Children NPCs_5: 829297845
+      Generic Children NPCs_50: -949506741
+      Generic Children NPCs_51: 1105709070
+      Generic Children NPCs_52: -410866450
+      Generic Children NPCs_53: 95814525
+      Generic Children NPCs_54: -663358187
+      Generic Children NPCs_55: -1578359020
+      Generic Children NPCs_56: -206277283
+      Generic Children NPCs_57: -1006275670
+      Generic Children NPCs_58: -337949446
+      Generic Children NPCs_59: -641465660
+      Generic Children NPCs_6: 761081363
+      Generic Children NPCs_60: 2142217464
+      Generic Children NPCs_61: -474583098
+      Generic Children NPCs_62: -1521405224
+      Generic Children NPCs_63: 285470192
+      Generic Children NPCs_64: -140758166
+      Generic Children NPCs_65: -1953429713
+      Generic Children NPCs_66: 1947347473
+      Generic Children NPCs_67: 380068933
+      Generic Children NPCs_68: 492988911
+      Generic Children NPCs_69: 1176901382
+      Generic Children NPCs_7: -571444361
+      Generic Children NPCs_70: 163159731
+      Generic Children NPCs_71: 541826366
+      Generic Children NPCs_72: -697431479
+      Generic Children NPCs_73: -665500516
+      Generic Children NPCs_74: -2002347636
+      Generic Children NPCs_75: -819609819
+      Generic Children NPCs_76: 1067315677
+      Generic Children NPCs_77: 1301598059
+      Generic Children NPCs_78: 653792169
+      Generic Children NPCs_79: -1509322507
+      Generic Children NPCs_8: 1137379269
+      Generic Children NPCs_80: 1429524123
+      Generic Children NPCs_81: 1522886017
+      Generic Children NPCs_82: -159280133
+      Generic Children NPCs_83: 511418270
+      Generic Children NPCs_84: -1817998334
+      Generic Children NPCs_85: -1760379829
+      Generic Children NPCs_86: 636236653
+      Generic Children NPCs_87: 1733899628
+      Generic Children NPCs_88: -435475359
+      Generic Children NPCs_89: 940879339
+      Generic Children NPCs_9: 369189077
+      Generic Children NPCs_90: -1036569918
+      Generic Children NPCs_91: -670987430
+      Generic Children NPCs_92: 832976291
+      Generic Children NPCs_93: 1073619288
+      Generic Children NPCs_94: -323035097
+      Generic Children NPCs_95: 1245482209
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
