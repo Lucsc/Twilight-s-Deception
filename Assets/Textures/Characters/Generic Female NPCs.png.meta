@@ -1,0 +1,2265 @@
+fileFormatVersion: 2
+guid: 758c19e23edb7304abee026aacb8375f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 33
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Generic Female NPCs_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 844
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65ed75b9a899334d889f6b876bd3ea3
+      internalID: 2056561966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 844
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3577c0aefaedd2f4dbad354c6b69d48a
+      internalID: 172301559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 844
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94797e8e0acda44f9097340e9ce6dd6
+      internalID: -529031014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 844
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bce8c0b03ae14439d85943114d5c80
+      internalID: 1514939541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerE_Down
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 844
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e454f362a5035c4fafa6e7d234f7114
+      internalID: -629771674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 844
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695814e437653d842999d48444f9a89c
+      internalID: -1338771557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 844
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b2efca49ed66649821eb3ad1dcb017
+      internalID: -166183597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 844
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d64c7afdf3f31648b32fd933b04b2f0
+      internalID: -1304285162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 844
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867facb27a9b71a489de6a40d34f5004
+      internalID: -304446142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 844
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a4b416c270bc47838d328f16ff975
+      internalID: -665730009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 844
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85f2a7a2841834896d3199252877e9
+      internalID: 209431073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_11
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 844
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f31b7e7084537542ae654d2e9d4d310
+      internalID: 1237894476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 724
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4dd8ffabf0e9d498341b9d6f2caa21
+      internalID: 2051991133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 724
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4044f3f6b0af694ea8372e2aca90cb7
+      internalID: -1114898538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 724
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd21d32352c00448e15e93fd8cb98f
+      internalID: 124348643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 724
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c69c58ec10487c49b13200665d90d92
+      internalID: 1142778183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerE_Left
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 724
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f58525967e79a439837982f30cf3b4
+      internalID: -1360282032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 724
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95c2998b9dd50e43b9af071eeb1df27
+      internalID: 873346417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 724
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7a421defffce04a90b1592a5532e8b
+      internalID: -2105321925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 724
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30e475dd59d5d4cb3d725d6907a88c
+      internalID: -495438860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_20
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 724
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b7314f8268e8b46affd90e24c237b2
+      internalID: -723468416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_21
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 724
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab16f1fd066c404e84f3cde381a3129
+      internalID: -962982839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_22
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 724
+        width: 46
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a22a16abcd030e41a648a8520c6f996
+      internalID: 1874079033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_23
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 724
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f065f714e1834eb5e12db195c1938
+      internalID: 1421440816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 604
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1abbe72ede1c24c9a8f2507039c90b
+      internalID: 455471353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 604
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a1856fb2f28814c94c95b0933c8a49
+      internalID: -1929855905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 604
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0515f716c4c89fb4194496461fb3ee3d
+      internalID: -1120942488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 604
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa4322f835153418216f46ede36a67
+      internalID: 566382106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerE_Right
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 604
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bec22380bb62045a1275fc84302550
+      internalID: 768457514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 604
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69f4324259960f459102788f0a43f45
+      internalID: 1098066055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_30
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 604
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83dca522dc9a264580b20475b2d48a6
+      internalID: -337561799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 604
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fd2f2a7beaa2646bd91e05b1fc0b94
+      internalID: -1810773498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_32
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 604
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099c878e5c57d02408487b674d839c99
+      internalID: 576768009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_33
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 604
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210b4fad2f480ee479a5f6ece31a39bb
+      internalID: -223233955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 604
+        width: 46
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f240fe3995840c142926a58b283ee6ca
+      internalID: -1809831198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 604
+        width: 46
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96dd235332109408a297c55f2cb94f
+      internalID: -63368576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 484
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b7a5e8144ab841947089d13feb51a
+      internalID: -1066378377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 484
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb725d0b610eb14468a9d08648c5e0fe
+      internalID: 1410561715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_38
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 484
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c31e0aa7a87d44e9114f259c78bd33
+      internalID: 1889867690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 484
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b8ef594c54ec438ce5a11f0ca6073
+      internalID: 344757945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillagerE_Up
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 484
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421fc53f0f44b6742adaef3744f774ad
+      internalID: -52901958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 484
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fef885dec345240bca394f3c7b445a
+      internalID: -699224959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_42
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 484
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031b975b8082d144281fb423fd304826
+      internalID: 743811341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 484
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87c582231c1064d8f55289d12dc2a3
+      internalID: 186937045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_44
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 484
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba94258abb1b5445ac634df15aad01f
+      internalID: 974882167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_45
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 484
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff208eac827694d948931c8da39e38
+      internalID: -1294783287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_46
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 484
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692766f7f020db24180270cfe6c88d54
+      internalID: 365441730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_47
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 484
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f611d3ff0437c8c40b94b4a9efbd3769
+      internalID: -1921239883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 364
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5418b869b966c0418543ca7d145aeef
+      internalID: -2046011945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 364
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a77bbd04fafc644a4344ff0edadf7d
+      internalID: 1874636353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 364
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d70600c3ae21a44b4684f9c9018b69
+      internalID: 872527958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_51
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 364
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a92d9e958aa024a84d40c55f1ebd2c
+      internalID: 1552287081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 364
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74ab00495b14ce4f966326e95bdf171
+      internalID: -1292347062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_53
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 364
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67641499384532145955398e7ab60cb7
+      internalID: 710476411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_54
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 364
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1282087296075584fa129b9a6a833778
+      internalID: 871604281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 364
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66edd11c88f74244e994d058828980ea
+      internalID: 107778328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_56
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 364
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f729d656d9db469042aa27f661f7a
+      internalID: -290508374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_57
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 364
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba6685d1dcaa1c4a8a48a64dc0d0306
+      internalID: 707275635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alice_Down
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 364
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed56bf10e92865647b7d4c271537a592
+      internalID: 2080047058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 364
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e3a159c4f45b043933a133f26c5df0
+      internalID: -1101732843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 244
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc71cec7a380149a4ad4a0680bc0bf
+      internalID: 1156085486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 244
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2fa9681c5276646893f0d835405c4b
+      internalID: -1181276943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_62
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 244
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda42f9984ea074aa6586d3ca0793e4
+      internalID: -385873491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_63
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 244
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870a4f59eb3b89b4c969d3f8f3cff8a7
+      internalID: 109661045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 244
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b916490c5162974aa0016b05582669a
+      internalID: 2136996696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_65
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 244
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa514f0a72be3d14d853a50eacf6c902
+      internalID: -705338474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_66
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 244
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f9cf2a2c62f2e4bab04410e52ea3a3
+      internalID: -213072871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_67
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 244
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5da4a7462c540468e641683c884da7
+      internalID: -60750022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_68
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 244
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2673bad7a3cf69346b7aff13f0851388
+      internalID: 1955219185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_69
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 244
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e18f11b5ca32d448ee7a4dafa7157b
+      internalID: 113104360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alice_Left
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 244
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef5365956529484985f4605f1a38e24
+      internalID: -1991999399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 244
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2caaf7c148ba74c89ba9c73a6ed6c0
+      internalID: -1400732370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_72
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 124
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779f1cb2d65dc04daf9cc42c68c34dd
+      internalID: -1560614420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_73
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 124
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149cf8105b8052b4fb11d4c68f5e5b06
+      internalID: -1460423421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_74
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 124
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d81dbc5c34b0449be4e8c060d83bff
+      internalID: 1083797690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 124
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c502a7f3797d267499a16f842e814c0f
+      internalID: -1004917172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_76
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 124
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce355fc8b0fc4e4186a6314e60e289d
+      internalID: -1945755561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_77
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 124
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519178f04e1c3aa47b7c48afaed3ae64
+      internalID: -242084636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_78
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 124
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434032c90d6949e4f905894f991f069b
+      internalID: -2000464346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_79
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 124
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b2d579b3c7b7a4786087d666f30b77
+      internalID: -319324785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_80
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 124
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b788c2a7875b54485bf5bbd9a9768d
+      internalID: 732965551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_81
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 124
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a0962ae19ef354989663f10f220c37
+      internalID: -299904723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alice_Right
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 124
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0bcd8a2129f14c9f7b11cb175f0ef
+      internalID: 776796909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 124
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0451ecf5da892424e8f5a495d60d2688
+      internalID: 879230646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_84
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92919071aadfa134d8c87c910e5a35d4
+      internalID: 1240025030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 4
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab293eb6e228f48aadfc66c5eba01e
+      internalID: 1454099549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_86
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b751bcc25e3f543b2b5c282fb121c9
+      internalID: -650643462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_87
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 4
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c35dcb4c376bd44396a128b0d4b4d35
+      internalID: 106803273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_88
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 4
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2b27ce07a570547b58b43454a46f98
+      internalID: 1528653027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_89
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4
+        width: 46
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3672159bf6cbb6c448b1306c1a23fbdd
+      internalID: -247927939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_90
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81663291f4d5bb48a036fce43582fd2
+      internalID: -353891047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_91
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827cb1ac35d59d4585d3a34dea3e049
+      internalID: 1795361322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_92
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 4
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99fca8dd2035dc4cbbd3218ce39d92f
+      internalID: 995810385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_93
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 4
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a7d340d0c514146a940fcfa569406c
+      internalID: 1296396953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alice_Up
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4
+        width: 50
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce63ec79b613c054ea49aad444e84a5b
+      internalID: -2009081851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Generic Female NPCs_95
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb586d37bcf44b44bb7973eb5fc2790
+      internalID: -409029611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alice_Down: 2080047058
+      Alice_Left: -1991999399
+      Alice_Right: 776796909
+      Alice_Up: -2009081851
+      Generic Female NPCs_0: 2056561966
+      Generic Female NPCs_1: 172301559
+      Generic Female NPCs_10: 209431073
+      Generic Female NPCs_11: 1237894476
+      Generic Female NPCs_12: 2051991133
+      Generic Female NPCs_13: -1114898538
+      Generic Female NPCs_14: 124348643
+      Generic Female NPCs_15: 1142778183
+      Generic Female NPCs_17: 873346417
+      Generic Female NPCs_18: -2105321925
+      Generic Female NPCs_19: -495438860
+      Generic Female NPCs_2: -529031014
+      Generic Female NPCs_20: -723468416
+      Generic Female NPCs_21: -962982839
+      Generic Female NPCs_22: 1874079033
+      Generic Female NPCs_23: 1421440816
+      Generic Female NPCs_24: 455471353
+      Generic Female NPCs_25: -1929855905
+      Generic Female NPCs_26: -1120942488
+      Generic Female NPCs_27: 566382106
+      Generic Female NPCs_29: 1098066055
+      Generic Female NPCs_3: 1514939541
+      Generic Female NPCs_30: -337561799
+      Generic Female NPCs_31: -1810773498
+      Generic Female NPCs_32: 576768009
+      Generic Female NPCs_33: -223233955
+      Generic Female NPCs_34: -1809831198
+      Generic Female NPCs_35: -63368576
+      Generic Female NPCs_36: -1066378377
+      Generic Female NPCs_37: 1410561715
+      Generic Female NPCs_38: 1889867690
+      Generic Female NPCs_39: 344757945
+      Generic Female NPCs_41: -699224959
+      Generic Female NPCs_42: 743811341
+      Generic Female NPCs_43: 186937045
+      Generic Female NPCs_44: 974882167
+      Generic Female NPCs_45: -1294783287
+      Generic Female NPCs_46: 365441730
+      Generic Female NPCs_47: -1921239883
+      Generic Female NPCs_48: -2046011945
+      Generic Female NPCs_49: 1874636353
+      Generic Female NPCs_5: -1338771557
+      Generic Female NPCs_50: 872527958
+      Generic Female NPCs_51: 1552287081
+      Generic Female NPCs_52: -1292347062
+      Generic Female NPCs_53: 710476411
+      Generic Female NPCs_54: 871604281
+      Generic Female NPCs_55: 107778328
+      Generic Female NPCs_56: -290508374
+      Generic Female NPCs_57: 707275635
+      Generic Female NPCs_59: -1101732843
+      Generic Female NPCs_6: -166183597
+      Generic Female NPCs_60: 1156085486
+      Generic Female NPCs_61: -1181276943
+      Generic Female NPCs_62: -385873491
+      Generic Female NPCs_63: 109661045
+      Generic Female NPCs_64: 2136996696
+      Generic Female NPCs_65: -705338474
+      Generic Female NPCs_66: -213072871
+      Generic Female NPCs_67: -60750022
+      Generic Female NPCs_68: 1955219185
+      Generic Female NPCs_69: 113104360
+      Generic Female NPCs_7: -1304285162
+      Generic Female NPCs_71: -1400732370
+      Generic Female NPCs_72: -1560614420
+      Generic Female NPCs_73: -1460423421
+      Generic Female NPCs_74: 1083797690
+      Generic Female NPCs_75: -1004917172
+      Generic Female NPCs_76: -1945755561
+      Generic Female NPCs_77: -242084636
+      Generic Female NPCs_78: -2000464346
+      Generic Female NPCs_79: -319324785
+      Generic Female NPCs_8: -304446142
+      Generic Female NPCs_80: 732965551
+      Generic Female NPCs_81: -299904723
+      Generic Female NPCs_83: 879230646
+      Generic Female NPCs_84: 1240025030
+      Generic Female NPCs_85: 1454099549
+      Generic Female NPCs_86: -650643462
+      Generic Female NPCs_87: 106803273
+      Generic Female NPCs_88: 1528653027
+      Generic Female NPCs_89: -247927939
+      Generic Female NPCs_9: -665730009
+      Generic Female NPCs_90: -353891047
+      Generic Female NPCs_91: 1795361322
+      Generic Female NPCs_92: 995810385
+      Generic Female NPCs_93: 1296396953
+      Generic Female NPCs_95: -409029611
+      VillagerE_Down: -629771674
+      VillagerE_Left: -1360282032
+      VillagerE_Right: 768457514
+      VillagerE_Up: -52901958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,18 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class NPCs : MonoBehaviour
 {
     public GameObject UI;
     public DialogueTrigger trigger;
     private bool inRange;
+
+    [SerializeField]
+    private Sprite[] sprites;
+    const float MinCycleDelay = 5f;
+    float MaxCycleDelay = 10f;
+    int currentSpriteIndex = 0;
+
+    private void Start()
+    {
+        // Idle movement method
+        Invoke("CycleSprite", Random.Range(MinCycleDelay, MaxCycleDelay));
+        // Set name tag
+        gameObject.GetComponentInChildren<TextMeshProUGUI>().text = name;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             Debug.Log("In Range");
-            inRange = true;           
+            inRange = true;
+            SetSprite(0);
         }
     }
 
@@ -33,5 +50,24 @@ public class NPCs : MonoBehaviour
                 trigger.TriggerDialogueTree();
             }
         }
+    }
+
+    private void CycleSprite()
+    {
+        Invoke("CycleSprite", Random.Range(MinCycleDelay, MaxCycleDelay));
+        // Don't cycle when the player is near
+        if (inRange)
+            return;
+
+        int newSpriteIndex;
+        while ((newSpriteIndex = Random.Range(0, sprites.Length)) == currentSpriteIndex) { }
+
+        SetSprite(newSpriteIndex);
+    }
+
+    private void SetSprite(int index)
+    {
+        currentSpriteIndex = index;
+        gameObject.GetComponent<SpriteRenderer>().sprite = sprites[index];
     }
 }
