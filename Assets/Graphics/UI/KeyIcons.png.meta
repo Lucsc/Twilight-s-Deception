@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KeyIcons_0: -3495547579716694505
+      KeyIcons_1: 4841405974987780406
+      KeyIcons_2: -1611936281182024222
+      KeyIcons_3: -5677179299027639335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
