@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using static System.Collections.Specialized.BitVector32;
+using System.Linq;
 
 public class DialogueTreeManager : MonoBehaviour
 {
@@ -23,15 +24,12 @@ public class DialogueTreeManager : MonoBehaviour
 
     private int currentBranchId = 0;
 
-    public Decisions decisions;
-
     public Timer timer;
 
     private DialogueTree currentDialogue;
     // Start is called before the first frame update
     void Start()
     {
-        decisions.playerDecisions.Clear();
         sentences = new Queue<string>();
         endButton = GameObject.Find("EndButton").GetComponent<Button>();
     }
@@ -53,7 +51,7 @@ public class DialogueTreeManager : MonoBehaviour
     {
         if (currentDialogue.branches[currentBranchId].clueID != 0)
         {
-            decisions.playerDecisions.Add(currentDialogue.branches[currentBranchId].clueID);
+            Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentBranchId].clueID);
         }     
         timer.RemoveTime(currentDialogue.branches[currentBranchId].timePenalty);
         if (currentDialogue.branches[currentBranchId].givesItem) {
@@ -73,16 +71,19 @@ public class DialogueTreeManager : MonoBehaviour
                 { 
                     for (int j = 0; j < section.responses[i].prerequisite.Length; j++)
                     {
-                        if (!decisions.playerDecisions.Contains(section.responses[i].prerequisite[j]))
+                        if (!Decisions.instance.playerDecisions.Contains(section.responses[i].prerequisite[j]))
                         {
                             indexesToRemove.Add(i);
                         }
                     }
 
                 }
-                foreach(int i in indexesToRemove)
+                indexesToRemove.Sort();
+                List<int> indexesToRemoveNoDupes = indexesToRemove.Distinct().ToList();
+                for (int i = indexesToRemoveNoDupes.Count - 1; i >= 0; i--)
                 {
-                    section.RemoveFromArray(i);
+                    Debug.Log("Removing: " + indexesToRemoveNoDupes[i]);
+                    section.RemoveFromArray(indexesToRemoveNoDupes[i]);
                 }
                 indexesToRemove.Clear();
                 // Displaying Options
