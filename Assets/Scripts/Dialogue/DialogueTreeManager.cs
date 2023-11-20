@@ -57,6 +57,7 @@ public class DialogueTreeManager : MonoBehaviour
             Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentDialogue.branchId].clueID);
             AudioManager.instance.Play("Got Clue");
         }     
+<<<<<<< HEAD
         if (currentDialogue.branches[currentDialogue.branchId].itemToGive != null && !Inventory.instance.itemList.Contains(currentDialogue.branches[currentDialogue.branchId].itemToGive))
         {
             Inventory.instance.AddItem(currentDialogue.branches[currentDialogue.branchId].itemToGive, 1);

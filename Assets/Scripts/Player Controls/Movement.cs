@@ -13,8 +13,9 @@ public class Movement : MonoBehaviour
     public Rigidbody2D player;
     public float speed;
     Vector2 movement;
+    const float MinMovementTheshold = 0.01f;
 
-    //public Animator animator;
+    public Animator animator;
 
     private GameObject currentDoor;
 
@@ -24,10 +25,12 @@ public class Movement : MonoBehaviour
     private float nextStep;
     public float stepDelay;
 
+
     private void Start()
     {
         stepDelay = speed / 10;
         AudioManager.instance.Play("Background Music");
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,10 +39,10 @@ public class Movement : MonoBehaviour
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
 
-        //animator.SetFloat("Horizontal", movement.x);
-        //animator.SetFloat("Vertical", movement.y);
+        SetAnimatorState();
+
         //animator.SetFloat("Speed", movement.sqrMagnitude);
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if(currentDoor != null)
             {
@@ -63,6 +66,33 @@ public class Movement : MonoBehaviour
 
         }
     }
+
+    private void SetAnimatorState()
+    {
+        bool idle = Mathf.Abs(movement.x) < MinMovementTheshold && Mathf.Abs(movement.y) < MinMovementTheshold;
+        bool up = movement.y > MinMovementTheshold;
+        bool down = movement.y < -MinMovementTheshold;
+        bool left = movement.x < MinMovementTheshold;
+        bool right = movement.x > -MinMovementTheshold;
+
+
+        if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y))
+        {
+            // More horizontal
+            up = down = false;
+        }
+        else
+        {
+            right = left = false;
+        }
+
+        animator.SetBool("Idle", idle);
+        animator.SetBool("Up", up);
+        animator.SetBool("Down", down);
+        animator.SetBool("Left", left);
+        animator.SetBool("Right", right);
+    }
+
     void FixedUpdate()
     {
         if (!dialogueTreeManager.isInDialogue)
