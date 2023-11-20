@@ -59,6 +59,10 @@ public class Movement : MonoBehaviour
             else if(currentItem != null)
             {
                 Inventory.instance.AddItem(currentItem, 1);
+                if (currentItem.itemName == "Shovel")
+                {
+                    GameManager.instance.hasShovel = true;
+                }
                 GameManager.instance.inventoryItems.Add(currentItem);
                 Decisions.instance.playerDecisions.Add(currentItem.ID);
                 currentItemPrefab.SetActive(false);
