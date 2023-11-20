@@ -21,9 +21,12 @@ public class Movement : MonoBehaviour
     private Item currentItem;
     private GameObject currentItemPrefab;
 
+    private float nextStep;
+    public float stepDelay;
 
     private void Start()
     {
+        stepDelay = speed / 10;
         AudioManager.instance.Play("Background Music");
     }
 
@@ -38,9 +41,17 @@ public class Movement : MonoBehaviour
         //animator.SetFloat("Speed", movement.sqrMagnitude);
         if(Input.GetKeyDown(KeyCode.E))
         {
-            if(currentDoor != null && currentDoor.GetComponent<Houses>().isOpen)
+            if(currentDoor != null)
             {
-                transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                if (currentDoor.GetComponent<Houses>().isOpen)
+                {
+                    transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                    AudioManager.instance.Play("Door");
+                }
+                else
+                {
+                    AudioManager.instance.Play("Locked");
+                }
             }
             else if(currentItem != null)
             {
@@ -49,6 +60,7 @@ public class Movement : MonoBehaviour
                 Decisions.instance.playerDecisions.Add(currentItem.ID);
                 currentItemPrefab.SetActive(false);
             }
+
         }
     }
     void FixedUpdate()
@@ -57,6 +69,19 @@ public class Movement : MonoBehaviour
         {
             Vector2 direction = Vector2.up * movement.y + Vector2.right * movement.x;
             player.velocity = direction * speed;
+            if (player.velocity.sqrMagnitude > 0)
+            {
+                if (Time.time > nextStep && Time.timeScale != 0.0f)
+                {
+                    AudioManager.instance.Play("Walking");
+                    nextStep = Time.time + stepDelay;
+                }
+
+            }
+            else
+            {
+                AudioManager.instance.Stop("Walking");
+            }
         }
         else
         {
@@ -105,4 +130,5 @@ public class Movement : MonoBehaviour
             }
         }
     }
+
 }

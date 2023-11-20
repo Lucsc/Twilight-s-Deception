@@ -42,19 +42,30 @@ public class DialogueTreeManager : MonoBehaviour
         animator.SetBool("IsOpen", true);
         string name = dialogue.NPCName;
         nameText.text = name;
-        timer.PauseTimer();
         endButton.gameObject.SetActive(true);
+        if (GameManager.instance.day != 4)
+        {
+            timer.PauseTimer();
+        }
         DialogueLoop();
     }
 
     public void DialogueLoop()
     {
-        if (currentDialogue.branches[currentBranchId].clueID != 0)
+        if (currentDialogue.branches[currentDialogue.branchId].clueID != 0)
         {
-            Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentBranchId].clueID);
+            Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentDialogue.branchId].clueID);
+            AudioManager.instance.Play("Got Clue");
         }     
-        timer.RemoveTime(currentDialogue.branches[currentBranchId].timePenalty);
-        foreach (DialogueSection section in Array.Find(currentDialogue.branches, item => item.branchID == currentBranchId).sections) 
+        if (currentDialogue.branches[currentDialogue.branchId].itemToGive != null && !Inventory.instance.itemList.Contains(currentDialogue.branches[currentDialogue.branchId].itemToGive))
+        {
+            Inventory.instance.AddItem(currentDialogue.branches[currentDialogue.branchId].itemToGive, 1);
+        }
+        if (GameManager.instance.day != 4)
+        {
+            timer.RemoveTime(currentDialogue.branches[currentDialogue.branchId].timePenalty);
+        }
+        foreach (DialogueSection section in Array.Find(currentDialogue.branches, item => item.branchID == currentDialogue.branchId).sections) 
         {
             //Debug.Log(currentBranchId);
             sentences.Enqueue(section.dialogue);
@@ -97,8 +108,8 @@ public class DialogueTreeManager : MonoBehaviour
 
     public void SetBranchID(int ID)
     {
-        currentDialogue.branches[currentBranchId].sections[0].AddBackFromArray();
-        currentBranchId = ID;
+        currentDialogue.branches[currentDialogue.branchId].sections[0].AddBackFromArray();
+        currentDialogue.branchId = ID;
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].gameObject.SetActive(false);
@@ -131,11 +142,14 @@ public class DialogueTreeManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        currentDialogue.branches[currentBranchId].sections[0].AddBackFromArray();
+        currentDialogue.branches[currentDialogue.branchId].sections[0].AddBackFromArray();
         isInDialogue = false;
         currentBranchId = 0;
         sentences.Clear();
-        timer.ResumeTimer();
+        if (GameManager.instance.day != 4)
+        {
+            timer.ResumeTimer();
+        }
         animator.SetBool("IsOpen", false);
         foreach (Button button in buttons)
         {

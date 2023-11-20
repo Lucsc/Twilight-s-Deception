@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public List<int> day1;
     public List<int> day2;
     public List<int> day3;
+    public List<int> trial;
 
     public List<Item> inventoryItems;
     private GameObject[] itemInScene;
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour
     private Button backDay1;
     private Button backDay2;
     private Button backDay3;
+
+    public bool hasShovel;
 
     private void Awake()
     {
@@ -70,13 +73,21 @@ public class GameManager : MonoBehaviour
 
         if(day == 4)
         {
-            backDay1 = GameObject.Find("Day1").GetComponent<Button>();
-            backDay1.onClick.AddListener(() => ReloadDay(0));
-            backDay2 = GameObject.Find("Day2").GetComponent<Button>();
-            backDay2.onClick.AddListener(() => ReloadDay(1));
-            backDay3 = GameObject.Find("Day3").GetComponent<Button>();
-            backDay3.onClick.AddListener(() => ReloadDay(2));
+            //backDay1 = GameObject.Find("Day1").GetComponent<Button>();
+            //backDay1.onClick.AddListener(() => ReloadDay(0));
+            //backDay2 = GameObject.Find("Day2").GetComponent<Button>();
+            //backDay2.onClick.AddListener(() => ReloadDay(1));
+            //backDay3 = GameObject.Find("Day3").GetComponent<Button>();
+            //backDay3.onClick.AddListener(() => ReloadDay(2));
+            StartCoroutine(StartTrial());
         }
+    }
+
+    IEnumerator StartTrial()
+    {
+        yield return new WaitForSeconds(3);
+        GameObject trial = GameObject.Find("NPC Prefab");
+        trial.GetComponent<NPCs>().trigger.TriggerDialogueTree();
     }
 
     public void EndDay()
