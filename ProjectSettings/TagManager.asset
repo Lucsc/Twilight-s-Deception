@@ -9,6 +9,7 @@ TagManager:
   - Item
   - Wardrobe
   - Decisions
+  - Hole
   layers:
   - Default
   - TransparentFX

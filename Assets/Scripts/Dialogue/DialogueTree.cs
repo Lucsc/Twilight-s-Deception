@@ -55,6 +55,7 @@ public class DialogueSection
 public class DialogueBranch
 {
     public string branchName;
+    public Item itemToGive;
     public int branchID;
     public int clueID;
     public int timePenalty;
@@ -68,4 +69,6 @@ public class DialogueTree : MonoBehaviour
 {
     public DialogueBranch[] branches;
     public string NPCName;
+    [HideInInspector]
+    public int branchId;
 }

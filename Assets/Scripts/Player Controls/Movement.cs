@@ -22,11 +22,13 @@ public class Movement : MonoBehaviour
     private Item currentItem;
     private GameObject currentItemPrefab;
 
-    public Decisions playerDecisions;
+    private float nextStep;
+    public float stepDelay;
 
 
     private void Start()
     {
+        stepDelay = speed / 10;
         AudioManager.instance.Play("Background Music");
         animator = gameObject.GetComponent<Animator>();
     }
@@ -36,34 +38,48 @@ public class Movement : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
+        bool locked = false;
 
         SetAnimatorState();
 
         //animator.SetFloat("Speed", movement.sqrMagnitude);
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if(currentDoor != null && currentDoor.GetComponent<Houses>().isOpen)
+            if(currentDoor != null)
             {
                 if (currentDoor.GetComponent<Houses>().isLocked)
                 {
+                    locked = true;
                     Inventory.instance.itemList.ForEach(item =>
                     {
                         if (item.ID == currentDoor.GetComponent<Houses>().keyID)
                         {
                             transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                            locked = false;
+                            AudioManager.instance.Play("Door");
                         }
                     });
+                    if (locked)
+                    {
+                        AudioManager.instance.Play("Locked");
+                    }
                 } else {
+                    AudioManager.instance.Play("Door");
                     transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
                 }
             }
             else if(currentItem != null)
             {
                 Inventory.instance.AddItem(currentItem, 1);
+                if (currentItem.itemName == "Shovel")
+                {
+                    GameManager.instance.hasShovel = true;
+                }
                 GameManager.instance.inventoryItems.Add(currentItem);
                 Decisions.instance.playerDecisions.Add(currentItem.ID);
                 currentItemPrefab.SetActive(false);
             }
+
         }
     }
 
@@ -99,6 +115,19 @@ public class Movement : MonoBehaviour
         {
             Vector2 direction = Vector2.up * movement.y + Vector2.right * movement.x;
             player.velocity = direction * speed;
+            if (player.velocity.sqrMagnitude > 0)
+            {
+                if (Time.time > nextStep && Time.timeScale != 0.0f)
+                {
+                    AudioManager.instance.Play("Walking");
+                    nextStep = Time.time + stepDelay;
+                }
+
+            }
+            else
+            {
+                AudioManager.instance.Stop("Walking");
+            }
         }
         else
         {
@@ -147,4 +176,5 @@ public class Movement : MonoBehaviour
             }
         }
     }
+
 }

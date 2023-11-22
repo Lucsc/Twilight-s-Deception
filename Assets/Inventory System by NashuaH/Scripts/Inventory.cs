@@ -61,7 +61,7 @@ public class Inventory : MonoBehaviour
     public void AddItem(Item itemAdded, int quantityAdded)
     {
         //If the Item is Stackable it checks if there is already that item in the inventory and only adds the quantity
-  
+        AudioManager.instance.Play("Got Item");
         if (itemAdded.Stackable)
         {
             if (itemList.Contains(itemAdded))
