@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28652c0f583e0354591db7701cd9a7cf, type: 3}
-  m_Name: Mayor's Diary
+  m_Name: Photography
   m_EditorClassIdentifier: 
-  itemName: Mayor's Diary
-  ID: 8
+  itemName: Black and white photography
+  ID: 6
   Stackable: 0
-  itemIcon: {fileID: 21300000, guid: 3958b2e490040d64e9c3336395ce7baa, type: 3}
-  description: The Mayor's Diary detailing his disapproval of Ben.
+  itemIcon: {fileID: -2456088536805247644, guid: a24f36e517ee0b74cae90e840b980cd8, type: 3}
+  description: ' A photograph found in the brewery''s smaller room, showing Alice
+    and Ben in an intimate pose.'

@@ -44,7 +44,18 @@ public class Movement : MonoBehaviour
         {
             if(currentDoor != null && currentDoor.GetComponent<Houses>().isOpen)
             {
-                transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                if (currentDoor.GetComponent<Houses>().isLocked)
+                {
+                    Inventory.instance.itemList.ForEach(item =>
+                    {
+                        if (item.ID == currentDoor.GetComponent<Houses>().keyID)
+                        {
+                            transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                        }
+                    });
+                } else {
+                    transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                }
             }
             else if(currentItem != null)
             {
