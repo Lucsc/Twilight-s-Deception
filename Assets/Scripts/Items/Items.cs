@@ -15,6 +15,7 @@ public class Items : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             inRange = true;
+            // Set a timer
         }
     }
 
