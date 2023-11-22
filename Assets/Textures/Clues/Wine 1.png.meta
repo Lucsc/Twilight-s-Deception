@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wine 1_0: 6666566709853295261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
