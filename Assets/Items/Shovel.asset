@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28652c0f583e0354591db7701cd9a7cf, type: 3}
-  m_Name: Other Clue
+  m_Name: Shovel
   m_EditorClassIdentifier: 
-  itemName: Test2
-  ID: 80
+  itemName: Shovel
+  ID: 3
   Stackable: 0
-  itemIcon: {fileID: 21300000, guid: 4683e64797a364ad1adde74cc69b1ec9, type: 3}
-  description: OHHHHHHHHHHHHHHHH FUCK MY ASS
+  itemIcon: {fileID: 21300000, guid: b3a67fc6bd9f6405ba5785b99c7d830a, type: 3}
+  description: A shovel acquired from Alice's house, slightly covered in soil, seemingly
+    used recently for digging something.

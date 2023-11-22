@@ -8,6 +8,8 @@ public class Houses : MonoBehaviour
     private Transform destination;
 
     public bool isOpen;
+    public bool isLocked = false;
+    public int keyID;
     
 
     public Transform GetDestination()

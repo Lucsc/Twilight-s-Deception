@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28652c0f583e0354591db7701cd9a7cf, type: 3}
-  m_Name: Demonstration
+  m_Name: Wine
   m_EditorClassIdentifier: 
-  itemName: Demonstration
-  ID: 42
+  itemName: Wine
+  ID: 1
   Stackable: 0
-  itemIcon: {fileID: -96997100, guid: 55c6c1a0bba62494b8ff8fb08eca88f8, type: 3}
-  description: 42 is Nic's favorite number
+  itemIcon: {fileID: 6666566709853295261, guid: af208aed28638d74393d99ba6957752d, type: 3}
+  description: A special wine used by the mayor to entertain guests, known for its
+    exquisite taste and rich aroma, symbolizing luxury and hospitality

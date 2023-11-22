@@ -38,6 +38,7 @@ public class Movement : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
+        bool locked = false;
 
         SetAnimatorState();
 
@@ -46,14 +47,25 @@ public class Movement : MonoBehaviour
         {
             if(currentDoor != null)
             {
-                if (currentDoor.GetComponent<Houses>().isOpen)
+                if (currentDoor.GetComponent<Houses>().isLocked)
                 {
-                    transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                    locked = true;
+                    Inventory.instance.itemList.ForEach(item =>
+                    {
+                        if (item.ID == currentDoor.GetComponent<Houses>().keyID)
+                        {
+                            transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
+                            locked = false;
+                            AudioManager.instance.Play("Door");
+                        }
+                    });
+                    if (locked)
+                    {
+                        AudioManager.instance.Play("Locked");
+                    }
+                } else {
                     AudioManager.instance.Play("Door");
-                }
-                else
-                {
-                    AudioManager.instance.Play("Locked");
+                    transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
                 }
             }
             else if(currentItem != null)

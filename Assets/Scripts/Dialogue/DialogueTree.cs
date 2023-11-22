@@ -61,8 +61,6 @@ public class DialogueBranch
     public int timePenalty;
     public DialogueSection[] sections;
     public bool endOnFinal;
-    public bool givesItem;
-    public Item item;
 }
 
 public class DialogueTree : MonoBehaviour

@@ -21,3 +21,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Decision Day.unity
     guid: d50fdd7d991acd846a09080db4fabdc6
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

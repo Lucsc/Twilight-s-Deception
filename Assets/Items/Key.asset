@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Key
   m_EditorClassIdentifier: 
   itemName: Key
-  ID: 100
+  ID: 5
   Stackable: 0
   itemIcon: {fileID: 4841405974987780406, guid: 24b627683d866534fb8cbdf72b082605, type: 3}
-  description: Key to open a wardrobe
+  description: A peculiar key found in the main room of the brewery, hidden away.
