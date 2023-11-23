@@ -30,6 +30,7 @@ public class DialogueTreeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.instance.Play("Background Music");
         sentences = new Queue<string>();
         endButton = GameObject.Find("EndButton").GetComponent<Button>();
     }
@@ -56,6 +57,10 @@ public class DialogueTreeManager : MonoBehaviour
         {
             Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentDialogue.branchId].clueID);
             AudioManager.instance.Play("Got Clue");
+            if (GameManager.instance.day == 4)
+            {
+                GameManager.instance.Ending(currentDialogue.branches[currentDialogue.branchId].clueID);
+            }
         }     
 
         if (currentDialogue.branches[currentDialogue.branchId].itemToGive != null && !Inventory.instance.itemList.Contains(currentDialogue.branches[currentDialogue.branchId].itemToGive))

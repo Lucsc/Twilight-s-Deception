@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -73,12 +74,7 @@ public class GameManager : MonoBehaviour
 
         if(day == 4)
         {
-            //backDay1 = GameObject.Find("Day1").GetComponent<Button>();
-            //backDay1.onClick.AddListener(() => ReloadDay(0));
-            //backDay2 = GameObject.Find("Day2").GetComponent<Button>();
-            //backDay2.onClick.AddListener(() => ReloadDay(1));
-            //backDay3 = GameObject.Find("Day3").GetComponent<Button>();
-            //backDay3.onClick.AddListener(() => ReloadDay(2));
+
             StartCoroutine(StartTrial());
         }
     }
@@ -86,7 +82,7 @@ public class GameManager : MonoBehaviour
     IEnumerator StartTrial()
     {
         yield return new WaitForSeconds(3);
-        GameObject trial = GameObject.Find("NPC Prefab");
+        GameObject trial = GameObject.Find("GuardA");
         trial.GetComponent<NPCs>().trigger.TriggerDialogueTree();
     }
 
@@ -130,6 +126,70 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void Ending(int ID)
+    {      
+        // Bad Ending
+        if (ID == 29)
+        {
+            StartCoroutine(BadEnding());
+        }
+        // Neutral Ending
+        else if (ID == 28)
+        {
+            StartCoroutine(NeutralEnding());
+        }
+        // True Ending
+        else if (ID == 27)
+        {
+             StartCoroutine(TrueEnding());
+        }
+    }
+
+    IEnumerator BadEnding()
+    {
+        GameObject endScreen = GameObject.Find("End Screen");
+        endScreen.GetComponent<GraphicRaycaster>().enabled = true;
+        GameObject container = GameObject.Find("End Screen/Container");
+        endScreen.GetComponentInChildren<GDTFadeEffect>().enabled = true;
+        yield return new WaitForSeconds(3);
+        for (int i = 0; i < container.transform.childCount; i++)
+        {
+            GameObject childObject = container.transform.GetChild(i).gameObject;
+            childObject.SetActive(true);
+        }
+        backDay1 = GameObject.Find("End Screen/Container/Day1").GetComponent<Button>();
+        backDay1.onClick.AddListener(() => ReloadDay(0));
+        backDay2 = GameObject.Find("End Screen/Container/Day2").GetComponent<Button>();
+        backDay2.onClick.AddListener(() => ReloadDay(1));
+        backDay3 = GameObject.Find("End Screen/Container/Day3").GetComponent<Button>();
+        backDay3.onClick.AddListener(() => ReloadDay(2));
+    }
+
+    IEnumerator NeutralEnding()
+    {
+        GameObject endScreen = GameObject.Find("Innocent Screen");
+        GameObject container = GameObject.Find("Innocent Screen/Container");
+        endScreen.GetComponentInChildren<GDTFadeEffect>().enabled = true;
+        yield return new WaitForSeconds(3);
+        for (int i = 0; i < container.transform.childCount; i++)
+        {
+            GameObject childObject = container.transform.GetChild(i).gameObject;
+            childObject.SetActive(true);
+        }
+        backDay1 = GameObject.Find("Innocent Screen/Container/Day1").GetComponent<Button>();
+        backDay1.onClick.AddListener(() => ReloadDay(0));
+        backDay2 = GameObject.Find("Innocent Screen/Container/Day2").GetComponent<Button>();
+        backDay2.onClick.AddListener(() => ReloadDay(1));
+        backDay3 = GameObject.Find("Innocent Screen/Container/Day3").GetComponent<Button>();
+        backDay3.onClick.AddListener(() => ReloadDay(2));
+    }
+
+    IEnumerator TrueEnding()
+    {
+        GameObject endScreen = GameObject.Find("Found Killer Screen");
+        yield return null;
+    }
+
     public void ReloadDay(int dayToStart)
     {
         // Erase data of days that haven't occured
@@ -148,12 +208,12 @@ public class GameManager : MonoBehaviour
                 day3.Clear();
                 break;
         }
-        Debug.Log("day1: " + day1[0]);
+        Debug.Log("Cleared GameManager decisions");
         Decisions.instance.playerDecisions.Clear();
         Decisions.instance.playerDecisions.AddRange(day1);
         Decisions.instance.playerDecisions.AddRange(day2);
         Decisions.instance.playerDecisions.AddRange(day3);
-        Debug.Log("decisions: " + Decisions.instance.playerDecisions[0]);
+        Debug.Log("Cleared decisions");
         foreach (Item item in inventoryItems.ToList())
         {
             if (!Decisions.instance.playerDecisions.Contains(item.ID))

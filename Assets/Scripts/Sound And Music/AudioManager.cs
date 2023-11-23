@@ -12,12 +12,12 @@ public class AudioManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
-        DontDestroyOnLoad(gameObject);
+        //else
+        //{
+        //    Destroy(gameObject);
+        //    return;
+        //}
+        //DontDestroyOnLoad(gameObject);
 
         foreach (Sound s  in sounds)
         {

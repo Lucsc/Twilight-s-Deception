@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
     private void Start()
     {
         stepDelay = speed / 10;
-        AudioManager.instance.Play("Background Music");
+
         animator = gameObject.GetComponent<Animator>();
     }
 
