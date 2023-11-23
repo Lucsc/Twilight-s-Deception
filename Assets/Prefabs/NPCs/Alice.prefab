@@ -151,8 +151,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b21047a414157a4468012126d66038b5, type: 2}
+  m_sharedMaterial: {fileID: -88735245892666930, guid: b21047a414157a4468012126d66038b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -452,6 +452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   branches:
   - branchName: Test1 0
+    itemToGive: {fileID: 0}
     branchID: 0
     clueID: 0
     timePenalty: 0
@@ -468,7 +469,10 @@ MonoBehaviour:
         responseDialogue: Sherloack Hoalms
       dialogue: Who are you stranger?
     endOnFinal: 0
+    givesItem: 0
+    item: {fileID: 0}
   - branchName: Test2 1
+    itemToGive: {fileID: 0}
     branchID: 1
     clueID: 0
     timePenalty: 30
@@ -476,4 +480,7 @@ MonoBehaviour:
     - responses: []
       dialogue: Hah! You lost time.
     endOnFinal: 1
+    givesItem: 0
+    item: {fileID: 0}
   NPCName: Test
+  branchId: 0

@@ -20,4 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Decision Day.unity
     guid: d50fdd7d991acd846a09080db4fabdc6
+  - enabled: 1
+    path: Assets/Scenes/Introduction.unity
+    guid: f23c7817b0f8ceb4a905fc8e9a51e426
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 6a925cf94d55a8541861ea3f0aa55d6e
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

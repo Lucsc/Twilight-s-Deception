@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 549646396300698611}
   - component: {fileID: 1512891797449249380}
   - component: {fileID: 8910432999123967246}
+  - component: {fileID: 5623307218383655464}
   m_Layer: 0
   m_Name: Butler
   m_TagString: NPC
@@ -368,6 +369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   branches:
   - branchName: Test1 0
+    itemToGive: {fileID: 0}
     branchID: 0
     clueID: 0
     timePenalty: 0
@@ -384,7 +386,10 @@ MonoBehaviour:
         responseDialogue: Sherloack Hoalms
       dialogue: Who are you stranger?
     endOnFinal: 0
+    givesItem: 0
+    item: {fileID: 0}
   - branchName: Test2 1
+    itemToGive: {fileID: 0}
     branchID: 1
     clueID: 0
     timePenalty: 30
@@ -392,7 +397,31 @@ MonoBehaviour:
     - responses: []
       dialogue: Hah! You lost time.
     endOnFinal: 1
+    givesItem: 0
+    item: {fileID: 0}
   NPCName: Test
+  branchId: 0
+--- !u!95 &5623307218383655464
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5368284782489626381}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23efdccd36b5d414ba804de6cbf6ed27, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7445195827434131971
 GameObject:
   m_ObjectHideFlags: 0
