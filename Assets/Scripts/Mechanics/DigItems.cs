@@ -5,6 +5,7 @@ using UnityEngine;
 public class DigItems : MonoBehaviour
 {
     private bool canDig;
+    public Item item;
 
     private void Start()
     {
@@ -15,9 +16,9 @@ public class DigItems : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && canDig && GameManager.instance.hasShovel)
         {
-            Inventory.instance.AddItem(gameObject.GetComponent<ItemPrefab>().item, 1);
-            GameManager.instance.inventoryItems.Add(gameObject.GetComponent<ItemPrefab>().item);
-            Decisions.instance.playerDecisions.Add(gameObject.GetComponent<ItemPrefab>().item.ID);
+            Inventory.instance.AddItem(item, 1);
+            GameManager.instance.inventoryItems.Add(item);
+            Decisions.instance.playerDecisions.Add(item.ID);
             gameObject.SetActive(false);
             AudioManager.instance.Play("Dig");
         }

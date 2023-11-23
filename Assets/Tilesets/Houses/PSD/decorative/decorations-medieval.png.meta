@@ -5117,8 +5117,8 @@ TextureImporter:
       name: decorations-medieval_210
       rect:
         serializedVersion: 2
-        x: 64
-        y: 654
+        x: 65
+        y: 655
         width: 96
         height: 67
       alignment: 0
@@ -5214,6 +5214,27 @@ TextureImporter:
       bones: []
       spriteID: b24f753781cc1ab42b57f849c2930f91
       internalID: -606397815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorations-medieval_215
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 656
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ba9fd9eab8844e8079d6bd394e443
+      internalID: 1947234162
       vertices: []
       indices: 
       edges: []
@@ -5359,6 +5380,7 @@ TextureImporter:
       decorations-medieval_212: -440748176
       decorations-medieval_213: 1479257256
       decorations-medieval_214: -606397815
+      decorations-medieval_215: 1947234162
       decorations-medieval_22: 108570862994765717
       decorations-medieval_23: 8310198958244545824
       decorations-medieval_24: 6054864919329616024
