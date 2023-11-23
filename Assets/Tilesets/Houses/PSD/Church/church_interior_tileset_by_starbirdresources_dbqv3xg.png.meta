@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: 9da8ef524053b5e47a22b028d6e5dff0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5712386544452207470
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_0
+  - first:
+      213: -2471804796423669493
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_1
+  - first:
+      213: 4750515783084489808
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_2
+  - first:
+      213: -647088336896429065
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_3
+  - first:
+      213: 8734430034563090238
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_4
+  - first:
+      213: 1958808796528121336
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_5
+  - first:
+      213: 2638052655188971475
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_6
+  - first:
+      213: 1984519038837951185
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_7
+  - first:
+      213: 8067826804454998930
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_8
+  - first:
+      213: -2976071037706381749
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_9
+  - first:
+      213: 524305670841734026
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_10
+  - first:
+      213: 2431555669138350927
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_11
+  - first:
+      213: 6558412160146218680
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_12
+  - first:
+      213: -7244079579153338694
+    second: church_interior_tileset_by_starbirdresources_dbqv3xg_13
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_0
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 528
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e638bc1fb49764f40800000000000000
+      internalID: 5712386544452207470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 383
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b097f0342a262bdd0800000000000000
+      internalID: -2471804796423669493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 370
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c33a67fe83de140800000000000000
+      internalID: 4750515783084489808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 364
+        width: 120
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f37df406941507f0800000000000000
+      internalID: -647088336896429065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 289
+        width: 48
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37c2a5e6dde63970800000000000000
+      internalID: 8734430034563090238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 537
+        width: 121
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f518f3e8361f2b10800000000000000
+      internalID: 1958808796528121336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 405
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df8053b9ee3c9420800000000000000
+      internalID: 2638052655188971475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da8fe72d8d6a8b10800000000000000
+      internalID: 1984519038837951185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 304
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2934ae4cbbda6ff60800000000000000
+      internalID: 8067826804454998930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 288
+        width: 98
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46de2bb82fd2b6d0800000000000000
+      internalID: -2976071037706381749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 242
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a839e30da35b64700800000000000000
+      internalID: 524305670841734026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 55
+        width: 39
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4324968ffe9eb120800000000000000
+      internalID: 2431555669138350927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be1e189c19240b50800000000000000
+      internalID: 6558412160146218680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 4
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe67e7e00cd77b90800000000000000
+      internalID: -7244079579153338694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 577
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee43b8a976fb8845ba20ac7a08577cd
+      internalID: 2103952203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_15
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 625
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5171601b1485ee544b265cbca0a9e2eb
+      internalID: -2004300578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 577
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f20527b33627249963fb0eda5c004b
+      internalID: -814011141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 579
+        width: 48
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df13219a0cac533428464ac31f374006
+      internalID: 1763265386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 578
+        width: 46
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5530fe2013859419d5e4da38bcb407
+      internalID: 1968772859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 578
+        width: 46
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be361978c50557d4ea72ff9ae7d7a154
+      internalID: 1963943579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 412
+        width: 36
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7116c38f1dda0940afd26a9ecb8572a
+      internalID: 1627751704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 412
+        width: 31
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6be0ecd2f5194f94499fe771c9e9c
+      internalID: -443030067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 194
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e150cd373950440b59d245889148a4
+      internalID: 653365664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: church_interior_tileset_by_starbirdresources_dbqv3xg_23
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 327
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9186534ee7badc4b8424c63ab75ba0e
+      internalID: 1945469594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dc6463eaece50fb40a9f41149eb9a984
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      church_interior_tileset_by_starbirdresources_dbqv3xg_0: 5712386544452207470
+      church_interior_tileset_by_starbirdresources_dbqv3xg_1: -2471804796423669493
+      church_interior_tileset_by_starbirdresources_dbqv3xg_10: 524305670841734026
+      church_interior_tileset_by_starbirdresources_dbqv3xg_11: 2431555669138350927
+      church_interior_tileset_by_starbirdresources_dbqv3xg_12: 6558412160146218680
+      church_interior_tileset_by_starbirdresources_dbqv3xg_13: -7244079579153338694
+      church_interior_tileset_by_starbirdresources_dbqv3xg_14: 2103952203
+      church_interior_tileset_by_starbirdresources_dbqv3xg_15: -2004300578
+      church_interior_tileset_by_starbirdresources_dbqv3xg_16: -814011141
+      church_interior_tileset_by_starbirdresources_dbqv3xg_17: 1763265386
+      church_interior_tileset_by_starbirdresources_dbqv3xg_18: 1968772859
+      church_interior_tileset_by_starbirdresources_dbqv3xg_19: 1963943579
+      church_interior_tileset_by_starbirdresources_dbqv3xg_2: 4750515783084489808
+      church_interior_tileset_by_starbirdresources_dbqv3xg_20: 1627751704
+      church_interior_tileset_by_starbirdresources_dbqv3xg_21: -443030067
+      church_interior_tileset_by_starbirdresources_dbqv3xg_22: 653365664
+      church_interior_tileset_by_starbirdresources_dbqv3xg_23: 1945469594
+      church_interior_tileset_by_starbirdresources_dbqv3xg_3: -647088336896429065
+      church_interior_tileset_by_starbirdresources_dbqv3xg_4: 8734430034563090238
+      church_interior_tileset_by_starbirdresources_dbqv3xg_5: 1958808796528121336
+      church_interior_tileset_by_starbirdresources_dbqv3xg_6: 2638052655188971475
+      church_interior_tileset_by_starbirdresources_dbqv3xg_7: 1984519038837951185
+      church_interior_tileset_by_starbirdresources_dbqv3xg_8: 8067826804454998930
+      church_interior_tileset_by_starbirdresources_dbqv3xg_9: -2976071037706381749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
