@@ -450,33 +450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d958035422f5d419db4a5b9aef40c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  branches:
-  - branchName: Test1 0
-    itemToGive: {fileID: 0}
-    branchID: 0
-    clueID: 0
-    timePenalty: 0
-    sections:
-    - responses:
-      - prerequisite: 00000000
-        nexBranchID: 4
-        responseDialogue: Secret
-      - prerequisite: 
-        nexBranchID: 1
-        responseDialogue: Conan the detective
-      - prerequisite: 
-        nexBranchID: 1
-        responseDialogue: Sherloack Hoalms
-      dialogue: Who are you stranger?
-    endOnFinal: 0
-  - branchName: Test2 1
-    itemToGive: {fileID: 0}
-    branchID: 1
-    clueID: 0
-    timePenalty: 30
-    sections:
-    - responses: []
-      dialogue: Hah! You lost time.
-    endOnFinal: 1
+  branches: []
   NPCName: Priest
   branchId: 0
