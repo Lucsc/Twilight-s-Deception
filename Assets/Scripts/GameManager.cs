@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
+using TMPro;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     private Button backDay1;
     private Button backDay2;
     private Button backDay3;
+    private Button backToMain;
 
     public bool hasShovel;
 
@@ -141,7 +143,11 @@ public class GameManager : MonoBehaviour
         // True Ending
         else if (ID == 27)
         {
-             StartCoroutine(TrueEnding());
+             StartCoroutine(BenSpeech());
+        }
+        else if (ID == 30)
+        {
+            StartCoroutine(TrueEnding());
         }
     }
 
@@ -151,7 +157,10 @@ public class GameManager : MonoBehaviour
         endScreen.GetComponent<GraphicRaycaster>().enabled = true;
         GameObject container = GameObject.Find("End Screen/Container");
         endScreen.GetComponentInChildren<GDTFadeEffect>().enabled = true;
-        yield return new WaitForSeconds(3);
+
+        TMP_Text endScreenText = GameObject.Find("End Screen/Container/Text").GetComponent<TMP_Text>();
+        endScreenText.text = "You weren't able to gather enough evidence to prove your innocence. Choose a day to start over from.";
+        yield return new WaitForSeconds(4);
         for (int i = 0; i < container.transform.childCount; i++)
         {
             GameObject childObject = container.transform.GetChild(i).gameObject;
@@ -163,33 +172,71 @@ public class GameManager : MonoBehaviour
         backDay2.onClick.AddListener(() => ReloadDay(1));
         backDay3 = GameObject.Find("End Screen/Container/Day3").GetComponent<Button>();
         backDay3.onClick.AddListener(() => ReloadDay(2));
+        backToMain = GameObject.Find("End Screen/Container/Main Menu").GetComponent<Button>();
+        backToMain.onClick.AddListener(() => BackToMainMenu());
     }
 
     IEnumerator NeutralEnding()
     {
-        GameObject endScreen = GameObject.Find("Innocent Screen");
-        GameObject container = GameObject.Find("Innocent Screen/Container");
+        GameObject endScreen = GameObject.Find("End Screen");
+        GameObject container = GameObject.Find("End Screen/Container");
         endScreen.GetComponentInChildren<GDTFadeEffect>().enabled = true;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         for (int i = 0; i < container.transform.childCount; i++)
         {
             GameObject childObject = container.transform.GetChild(i).gameObject;
             childObject.SetActive(true);
         }
-        backDay1 = GameObject.Find("Innocent Screen/Container/Day1").GetComponent<Button>();
+        backDay1 = GameObject.Find("End Screen/Container/Day1").GetComponent<Button>();
         backDay1.onClick.AddListener(() => ReloadDay(0));
-        backDay2 = GameObject.Find("Innocent Screen/Container/Day2").GetComponent<Button>();
+        backDay2 = GameObject.Find("End Screen/Container/Day2").GetComponent<Button>();
         backDay2.onClick.AddListener(() => ReloadDay(1));
-        backDay3 = GameObject.Find("Innocent Screen/Container/Day3").GetComponent<Button>();
+        backDay3 = GameObject.Find("End Screen/Container/Day3").GetComponent<Button>();
         backDay3.onClick.AddListener(() => ReloadDay(2));
+        backToMain = GameObject.Find("End Screen/Container/Main Menu").GetComponent<Button>();
+        backToMain.onClick.AddListener(() => BackToMainMenu());
+    }
+
+    IEnumerator BenSpeech()
+    {
+        GameObject ben = GameObject.Find("Ben");
+        GameObject cm = GameObject.Find("CM Camera");
+        yield return new WaitForSeconds(2f);
+        cm.GetComponent<CinemachineVirtualCamera>().Follow = ben.transform;
+        ben.GetComponent<NPCs>().trigger.TriggerDialogueTree();
     }
 
     IEnumerator TrueEnding()
     {
-        GameObject endScreen = GameObject.Find("Found Killer Screen");
-        yield return null;
+        GameObject endScreen = GameObject.Find("End Screen");
+        endScreen.GetComponent<GraphicRaycaster>().enabled = true;
+        GameObject container = GameObject.Find("End Screen/Container");
+        endScreen.GetComponentInChildren<GDTFadeEffect>().enabled = true;
+
+        TMP_Text endScreenText = GameObject.Find("End Screen/Container/Text").GetComponent<TMP_Text>();
+        endScreenText.text = "You were able to find the true killer and prove your innocence! Great job detective!";
+        yield return new WaitForSeconds(4);
+        for (int i = 0; i < container.transform.childCount; i++)
+        {
+            GameObject childObject = container.transform.GetChild(i).gameObject;
+            if (childObject.gameObject.name == "Text" || childObject.gameObject.name == "Main Menu") 
+            {
+                childObject.SetActive(true);
+            }
+        }
+        backToMain = GameObject.Find("End Screen/Container/Main Menu").GetComponent<Button>();
+        backToMain.onClick.AddListener(() => BackToMainMenu());
     }
 
+    public void BackToMainMenu()
+    {
+        day = 0;
+        day1.Clear();
+        day2.Clear();
+        day3.Clear();
+        Decisions.instance.playerDecisions.Clear();
+        SceneManager.LoadScene(0);
+    }
     public void ReloadDay(int dayToStart)
     {
         // Erase data of days that haven't occured

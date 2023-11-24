@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rope
   m_EditorClassIdentifier: 
   itemName: Rope
-  ID: 42
+  ID: 65
   Stackable: 0
   itemIcon: {fileID: 21300000, guid: cb44df3462e3a884b96d0705f59ed000, type: 3}
   description: This rope was used to bind someone.

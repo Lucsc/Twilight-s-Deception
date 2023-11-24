@@ -285,7 +285,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 4}
+  m_Size: {x: 3, y: 1.54}
   m_Direction: 0
 --- !u!70 &5588808462273814337
 CapsuleCollider2D:
@@ -368,6 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   branches:
   - branchName: Test1 0
+    itemToGive: {fileID: 0}
     branchID: 0
     clueID: 0
     timePenalty: 0
@@ -385,6 +386,7 @@ MonoBehaviour:
       dialogue: Who are you stranger?
     endOnFinal: 0
   - branchName: Test2 1
+    itemToGive: {fileID: 0}
     branchID: 1
     clueID: 0
     timePenalty: 30
@@ -393,6 +395,7 @@ MonoBehaviour:
       dialogue: Hah! You lost time.
     endOnFinal: 1
   NPCName: Test
+  branchId: 0
 --- !u!1 &7760623556468211931
 GameObject:
   m_ObjectHideFlags: 0

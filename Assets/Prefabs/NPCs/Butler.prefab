@@ -286,7 +286,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 4}
+  m_Size: {x: 3, y: 1.54}
   m_Direction: 0
 --- !u!70 &727282958388122237
 CapsuleCollider2D:
@@ -386,8 +386,6 @@ MonoBehaviour:
         responseDialogue: Sherloack Hoalms
       dialogue: Who are you stranger?
     endOnFinal: 0
-    givesItem: 0
-    item: {fileID: 0}
   - branchName: Test2 1
     itemToGive: {fileID: 0}
     branchID: 1
@@ -397,8 +395,6 @@ MonoBehaviour:
     - responses: []
       dialogue: Hah! You lost time.
     endOnFinal: 1
-    givesItem: 0
-    item: {fileID: 0}
   NPCName: Test
   branchId: 0
 --- !u!95 &5623307218383655464

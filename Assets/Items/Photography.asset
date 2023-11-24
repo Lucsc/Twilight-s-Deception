@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Photography
   m_EditorClassIdentifier: 
   itemName: Black and white photography
-  ID: 6
+  ID: 46
   Stackable: 0
   itemIcon: {fileID: -2456088536805247644, guid: a24f36e517ee0b74cae90e840b980cd8, type: 3}
   description: ' A photograph found in the brewery''s smaller room, showing Alice

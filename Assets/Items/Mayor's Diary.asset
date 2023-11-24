@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mayor's Diary
   m_EditorClassIdentifier: 
   itemName: Mayor's Diary
-  ID: 8
+  ID: 48
   Stackable: 0
   itemIcon: {fileID: 21300000, guid: 3958b2e490040d64e9c3336395ce7baa, type: 3}
   description: The Mayor's Diary detailing his disapproval of Ben.

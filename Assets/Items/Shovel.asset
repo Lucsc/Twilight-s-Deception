@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shovel
   m_EditorClassIdentifier: 
   itemName: Shovel
-  ID: 3
+  ID: 43
   Stackable: 0
   itemIcon: {fileID: 21300000, guid: b3a67fc6bd9f6405ba5785b99c7d830a, type: 3}
   description: A shovel acquired from Alice's house, slightly covered in soil, seemingly

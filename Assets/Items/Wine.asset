@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wine
   m_EditorClassIdentifier: 
   itemName: Wine
-  ID: 1
+  ID: 41
   Stackable: 0
   itemIcon: {fileID: 6666566709853295261, guid: af208aed28638d74393d99ba6957752d, type: 3}
   description: A special wine used by the mayor to entertain guests, known for its

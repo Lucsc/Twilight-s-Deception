@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gun
   m_EditorClassIdentifier: 
   itemName: Gun
-  ID: 7
+  ID: 47
   Stackable: 0
   itemIcon: {fileID: -6843010551184918661, guid: a87eaa0abd81e35438bf77804f45d5e3, type: 3}
   description: Engraved with "To my dearest love"

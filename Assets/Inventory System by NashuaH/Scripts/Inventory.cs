@@ -60,6 +60,8 @@ public class Inventory : MonoBehaviour
     // Currently it's being called by the AddItemToInventory Script on the Add Items Buttons 
     public void AddItem(Item itemAdded, int quantityAdded)
     {
+        GameManager.instance.inventoryItems.Add(itemAdded);
+        Decisions.instance.playerDecisions.Add(itemAdded.ID);
         //If the Item is Stackable it checks if there is already that item in the inventory and only adds the quantity
         AudioManager.instance.Play("Got Item");
         if (itemAdded.Stackable)

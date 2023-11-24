@@ -50,9 +50,9 @@ public class Movement : MonoBehaviour
                 if (currentDoor.GetComponent<Houses>().isLocked)
                 {
                     locked = true;
-                    Inventory.instance.itemList.ForEach(item =>
+                    Decisions.instance.playerDecisions.ForEach(clue =>
                     {
-                        if (item.ID == currentDoor.GetComponent<Houses>().keyID)
+                        if (clue == currentDoor.GetComponent<Houses>().keyID)
                         {
                             transform.position = currentDoor.GetComponent<Houses>().GetDestination().position;
                             locked = false;
@@ -75,8 +75,7 @@ public class Movement : MonoBehaviour
                 {
                     GameManager.instance.hasShovel = true;
                 }
-                GameManager.instance.inventoryItems.Add(currentItem);
-                Decisions.instance.playerDecisions.Add(currentItem.ID);
+
                 currentItemPrefab.SetActive(false);
             }
 
