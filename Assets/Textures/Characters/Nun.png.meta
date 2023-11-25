@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 019be99b083e3594a83eb64bfe8fd070
+guid: d8ea6fb540d30cf46a642f3bf2194827
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Priest_0
+      name: Nun_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 197
-        width: 30
-        height: 46
+        x: 11
+        y: 200
+        width: 28
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fbc0c81e1ce2444da5a06ec489b3a0d
-      internalID: 840775100
+      spriteID: 1ebb7227b8525014e88f9685c7008c6f
+      internalID: 427934812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Priest_1
+      name: Nun_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 133
-        width: 20
-        height: 47
+        x: 14
+        y: 136
+        width: 24
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97ef48aa7a1f594eb819872bbcb846f
-      internalID: 1342860059
+      spriteID: a93365a04f906da4ea2271a34738a9ef
+      internalID: -611761100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Priest_2
+      name: Nun_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 69
-        width: 30
-        height: 47
+        x: 11
+        y: 73
+        width: 28
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0450ea8fb29014d45812084b0de0d558
-      internalID: -1981994574
+      spriteID: b4b371e06b5adad44ba917ee017dc64f
+      internalID: -1226914355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Priest_3
+      name: Nun_3
       rect:
         serializedVersion: 2
-        x: 21
-        y: 5
-        width: 21
-        height: 47
+        x: 12
+        y: 8
+        width: 24
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ad50510aefd1924882b1e37169b8255
-      internalID: -415730343
+      spriteID: 0035bc7b61d7d8c4f8b91b0de0488d4a
+      internalID: 941545427
       vertices: []
       indices: 
       edges: []
@@ -230,10 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Priest_0: 840775100
-      Priest_1: 1342860059
-      Priest_2: -1981994574
-      Priest_3: -415730343
+      Nun_0: 427934812
+      Nun_1: -611761100
+      Nun_2: -1226914355
+      Nun_3: 941545427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
