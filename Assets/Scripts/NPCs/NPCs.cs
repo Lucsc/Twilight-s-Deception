@@ -29,7 +29,8 @@ public class NPCs : MonoBehaviour
         {
             Debug.Log("In Range");
             inRange = true;
-            SetSprite(0);
+            if (sprites.Length != 0)
+                SetSprite(0);
         }
     }
 
@@ -54,15 +55,19 @@ public class NPCs : MonoBehaviour
 
     private void CycleSprite()
     {
-        Invoke("CycleSprite", Random.Range(MinCycleDelay, MaxCycleDelay));
-        // Don't cycle when the player is near
-        if (inRange)
-            return;
+        if (sprites.Length != 0)
+        {
+            Invoke("CycleSprite", Random.Range(MinCycleDelay, MaxCycleDelay));
+            // Don't cycle when the player is near
+            if (inRange)
+                return;
 
-        int newSpriteIndex;
-        while ((newSpriteIndex = Random.Range(0, sprites.Length)) == currentSpriteIndex) { }
+            int newSpriteIndex;
+            while ((newSpriteIndex = Random.Range(0, sprites.Length)) == currentSpriteIndex) { }
 
-        SetSprite(newSpriteIndex);
+            SetSprite(newSpriteIndex);
+        }
+
     }
 
     private void SetSprite(int index)

@@ -53,7 +53,7 @@ public class DialogueTreeManager : MonoBehaviour
 
     public void DialogueLoop()
     {
-        if (currentDialogue.branches[currentDialogue.branchId].clueID != 0)
+        if (currentDialogue.branches[currentDialogue.branchId].clueID != 0 && !Decisions.instance.playerDecisions.Contains(currentDialogue.branches[currentDialogue.branchId].clueID))
         {
             Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentDialogue.branchId].clueID);
             AudioManager.instance.Play("Got Clue");
