@@ -11,6 +11,7 @@ public class SpawnCrow : MonoBehaviour
 
     void Start()
     {
+        AudioManager.instance.Play("Background Music");
         InvokeRepeating("Spawn", spawnTime, spawnTime);
     }
 
@@ -19,6 +20,16 @@ public class SpawnCrow : MonoBehaviour
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
         GameObject newCrow = Instantiate(crow, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
         newCrow.GetComponent<CrowMovement>().endPoint = endPoint;
+    }
+
+    public void Stop()
+    {
+        CancelInvoke();
+    }
+
+    public void AbleToSpawn()
+    {
+        InvokeRepeating("Spawn", spawnTime, spawnTime);
     }
 
 }
