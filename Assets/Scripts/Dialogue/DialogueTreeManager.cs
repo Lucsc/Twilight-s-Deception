@@ -53,6 +53,7 @@ public class DialogueTreeManager : MonoBehaviour
 
     public void DialogueLoop()
     {
+        // Get clue
         if (currentDialogue.branches[currentDialogue.branchId].clueID != 0 && !Decisions.instance.playerDecisions.Contains(currentDialogue.branches[currentDialogue.branchId].clueID))
         {
             Decisions.instance.playerDecisions.Add(currentDialogue.branches[currentDialogue.branchId].clueID);
@@ -62,14 +63,20 @@ public class DialogueTreeManager : MonoBehaviour
                 GameManager.instance.Ending(currentDialogue.branches[currentDialogue.branchId].clueID);
             }
         }     
-
+        // Give Item
         if (currentDialogue.branches[currentDialogue.branchId].itemToGive != null && !Inventory.instance.itemList.Contains(currentDialogue.branches[currentDialogue.branchId].itemToGive))
         {
             Inventory.instance.AddItem(currentDialogue.branches[currentDialogue.branchId].itemToGive, 1);
         }
+        // Remove time
         if (GameManager.instance.day != 4)
         {
             timer.RemoveTime(currentDialogue.branches[currentDialogue.branchId].timePenalty);
+        }
+        // Take item
+        if (currentDialogue.branches[currentDialogue.branchId].itemToTake != null && Inventory.instance.itemList.Contains(currentDialogue.branches[currentDialogue.branchId].itemToTake))
+        {
+            Inventory.instance.RemoveItem(currentDialogue.branches[currentDialogue.branchId].itemToTake, 1);
         }
         foreach (DialogueSection section in Array.Find(currentDialogue.branches, item => item.branchID == currentDialogue.branchId).sections) 
         {

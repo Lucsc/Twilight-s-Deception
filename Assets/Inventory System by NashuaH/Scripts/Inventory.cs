@@ -60,8 +60,14 @@ public class Inventory : MonoBehaviour
     // Currently it's being called by the AddItemToInventory Script on the Add Items Buttons 
     public void AddItem(Item itemAdded, int quantityAdded)
     {
-        GameManager.instance.inventoryItems.Add(itemAdded);
-        Decisions.instance.playerDecisions.Add(itemAdded.ID);
+        if (!GameManager.instance.inventoryItems.Contains(itemAdded))
+        {
+            GameManager.instance.inventoryItems.Add(itemAdded);
+        }
+        if (!Decisions.instance.playerDecisions.Contains(itemAdded.ID))
+        {
+            Decisions.instance.playerDecisions.Add(itemAdded.ID);
+        }
         //If the Item is Stackable it checks if there is already that item in the inventory and only adds the quantity
         AudioManager.instance.Play("Got Item");
         if (itemAdded.Stackable)
@@ -106,6 +112,14 @@ public class Inventory : MonoBehaviour
     // Currently called by the Remove Button in each InventorySlot Prefab
     public void RemoveItem(Item itemRemoved, int quantityRemoved)
     {
+        if (GameManager.instance.inventoryItems.Contains(itemRemoved))
+        {
+            GameManager.instance.inventoryItems.Remove(itemRemoved);
+        }
+        if (Decisions.instance.playerDecisions.Contains(itemRemoved.ID))
+        {
+            Decisions.instance.playerDecisions.Remove(itemRemoved.ID);
+        }
         // If the item is stackable it removes the quantity and if it's 0 or less it removes the item completely from the itemList
         if (itemRemoved.Stackable)
         {

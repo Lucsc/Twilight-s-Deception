@@ -56,6 +56,7 @@ public class DialogueBranch
 {
     public string branchName;
     public Item itemToGive;
+    public Item itemToTake;
     public int branchID;
     public int clueID;
     public int timePenalty;
