@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
+        SetVolume(PlayerPrefs.GetFloat("Volume", 0.5f));
         //else
         //{
         //    Destroy(gameObject);

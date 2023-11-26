@@ -36,13 +36,14 @@ public class Settings : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
-
-        fullScreenToggle.isOn = Screen.fullScreen;
-        volumeSlider.value = PlayerPrefs.GetFloat("Volume", 0.5f);
+        
 
         SetVolume(PlayerPrefs.GetFloat("Volume", 0.5f));
         SetFullScreen(PlayerPrefs.GetInt("FullScreen", 1) == 1);
         SetResolution(PlayerPrefs.GetInt("Resolution", 0));
+
+        fullScreenToggle.isOn = Screen.fullScreen;
+        volumeSlider.value = PlayerPrefs.GetFloat("Volume", 0.5f);
     }
     public void SetVolume(float volume)
     {

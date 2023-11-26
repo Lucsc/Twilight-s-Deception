@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        Screen.fullScreen = true;
 
         day1 = new List<int>();
         day2 = new List<int>();
