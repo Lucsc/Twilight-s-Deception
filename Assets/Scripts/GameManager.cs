@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
             return;
         }
         Screen.fullScreen = true;
+        AudioManager.instance.SetVolume(PlayerPrefs.GetFloat("Volume", 0.5f));
 
         day1 = new List<int>();
         day2 = new List<int>();

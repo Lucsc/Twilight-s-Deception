@@ -41,6 +41,7 @@ public class TutorialManager : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.instance.SetVolume(PlayerPrefs.GetFloat("Volume", 0.5f));
         Invoke("Disembark", 5.12f);
         Butler.transform.position = new Vector3(-2.12f, -1.52f, -0.51f);
         Player.transform.position = new Vector3(-0.39f, 0.18f, -0.386f);
