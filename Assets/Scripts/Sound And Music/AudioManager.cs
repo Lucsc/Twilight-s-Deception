@@ -47,4 +47,12 @@ public class AudioManager : MonoBehaviour
         s.audioSource.Stop();
     }
 
+    public void SetVolume(float volume)
+    {
+        foreach (Sound s in sounds)
+        {
+            s.audioSource.volume = volume;
+        }
+    }
+
 }
