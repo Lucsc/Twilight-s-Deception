@@ -25,19 +25,7 @@ public class TutorialManager : MonoBehaviour
     [SerializeField]
     Sprite ButlerAccused;
     [SerializeField]
-    GameObject[] Characters;
-
-    /// <summary>
-    /// Order: Player, Butler, GuardA, GuardB, Alice, Ben
-    /// </summary>
-    Vector3[] Positions = {
-    new Vector3(-58.6300011f,-44.5999985f,0f),
-    new Vector3(-59.7099991f,-43.9099998f,15.7200003f),
-    new Vector3(-61.1499977f,-42.4700012f,0f),
-    new Vector3(-59.9799995f,-42.4300003f,0f),
-    new Vector3(-60.0099983f,-45.0400009f,0f),
-    new Vector3(-63.8378944f,-46.371418f,0f)
-    };
+    Animator Tutorial;
 
     private void Start()
     {
@@ -45,6 +33,14 @@ public class TutorialManager : MonoBehaviour
         Invoke("Disembark", 5.12f);
         Butler.transform.position = new Vector3(-2.12f, -1.52f, -0.51f);
         Player.transform.position = new Vector3(-0.39f, 0.18f, -0.386f);
+    }
+
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            EndScene();
+        }
     }
 
     private void Disembark()
@@ -108,7 +104,6 @@ public class TutorialManager : MonoBehaviour
         SpeakerText.text = "Butler";
         DialogueText.text = "What's wrong? I heard someone scream.";
 
-
         Invoke("ButlerGrieving", 3.5f);
     }
 
@@ -126,10 +121,7 @@ public class TutorialManager : MonoBehaviour
 
         Butler.GetComponent<Animator>().SetBool("Accuse", true);
         Player.GetComponent<Animator>().SetBool("Berated", true);
-        for (int i = 0; i < Characters.Length; i++)
-        {
-            Characters[i].SetActive(true);
-        }
+        Tutorial.GetComponent<Animator>().SetBool("Arrested", true);
         SpeakerText.text = "Butler";
         DialogueText.text = "<size=13px>How could you murder your own friend? What did he ever do to deserve this!?<size=8.5px>";
         Invoke("Transition", 5.7f);
@@ -139,32 +131,29 @@ public class TutorialManager : MonoBehaviour
     private void AliceDefense()
     {
         BlackoutCanvas.GetComponent<Animator>().SetBool("Transition", false);
-        for (int i = 0; i < 3; i++)
-        {
-            Characters[i].transform.position = Positions[2+i];
-        }
+        Tutorial.GetComponent<Animator>().SetBool("Defense", true);
         SpeakerText.text = "Alice";
-        DialogueText.text = "There's no way he killed my father! Please! Give him time to help us find out what truly happened.";
+        DialogueText.text = "There's no way he killed my father! Please! \nGive him time to help us find out what truly happened.";
 
-        Invoke("Judgement", 6f);
+        Invoke("Judgement", 7f);
     }
 
     private void Judgement()
     {
         SpeakerText.text = "Butler";
         DialogueText.text = "Out of respect for Alice's pleas to vouch for her father's potential killer, I will give you one chance.\n";
-        Invoke("Threat", 6f);
+        Invoke("Threat", 7f);
     }
 
     private void Threat()
     {
-        DialogueText.text = "You have <color=\"red\">3 Days</color>. Search the town and find a different conclusion. Or else you and Alice will be gone.";
+        DialogueText.text = "You have <color=\"red\">3 Days</color>. Search the town and find a different conclusion. \nOr else <color=\"red\">you will hang</color>.";
 
-        Invoke("EndScene", 6f);
+        Invoke("EndScene", 7f);
     }
     //Invoke("StartTutorial", 2f);
 
-    private void EndScene()
+    public void EndScene()
     {
         BlackoutCanvas.GetComponent<Animator>().SetBool("End", true);
         Invoke("StartGame", 1.5f);

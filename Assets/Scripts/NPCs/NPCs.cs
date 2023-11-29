@@ -29,6 +29,7 @@ public class NPCs : MonoBehaviour
         {
             Debug.Log("In Range");
             inRange = true;
+            collision.GetComponent<Movement>().SetInteractPromptEnabled(true);
             if (sprites.Length != 0)
                 SetSprite(0);
         }
@@ -38,6 +39,7 @@ public class NPCs : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            collision.GetComponent<Movement>().SetInteractPromptEnabled(false);
             inRange = false;
         }
     }

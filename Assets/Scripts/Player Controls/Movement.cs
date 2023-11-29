@@ -25,10 +25,13 @@ public class Movement : MonoBehaviour
     private float nextStep;
     public float stepDelay;
 
+    [SerializeField]
+    GameObject InteractPrompt;
+
 
     private void Start()
     {
-        stepDelay = speed / 10;
+        stepDelay = speed / 9;
 
         animator = gameObject.GetComponent<Animator>();
     }
@@ -140,6 +143,7 @@ public class Movement : MonoBehaviour
         if (collision.CompareTag("Door"))
         {
             currentDoor = collision.gameObject;
+            SetInteractPromptEnabled(true);
         }
     }
 
@@ -150,6 +154,7 @@ public class Movement : MonoBehaviour
             if(collision.gameObject == currentDoor)
             {
                 currentDoor = null;
+                SetInteractPromptEnabled(false);
             }
         }
 
@@ -161,6 +166,7 @@ public class Movement : MonoBehaviour
         {
             currentItemPrefab = collision.gameObject;
             currentItem = collision.gameObject.GetComponent<ItemPrefab>().item;
+            SetInteractPromptEnabled(true);
         }
     }
 
@@ -172,8 +178,14 @@ public class Movement : MonoBehaviour
             {
                 currentItemPrefab = null;
                 currentItem = null;
+                SetInteractPromptEnabled(false);
             }
         }
     }
 
+    public void SetInteractPromptEnabled(bool enabled)
+    {
+        if (InteractPrompt != null)
+            InteractPrompt.SetActive(enabled);
+    }
 }

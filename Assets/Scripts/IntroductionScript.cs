@@ -18,8 +18,8 @@ public class IntroductionScript : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.instance.SetVolume(PlayerPrefs.GetFloat("Volume", 0.5f));
         Invoke("ShowInstructions", 4f);
-        
     }
 
     public void cycle() 
@@ -39,6 +39,10 @@ public class IntroductionScript : MonoBehaviour
             StartLetterRoll();
             instructionsComplete = true;
             DialogueWindow.SetActive(false);
+        }
+        if (instructionsComplete && Input.GetKeyDown(KeyCode.Escape))
+        {
+            EndLetterRoll();
         }
     }
 
