@@ -15,6 +15,7 @@ public class Settings : MonoBehaviour
     public SpawnCrow spawnCrow;
     public Toggle fullScreenToggle;
     public Scrollbar volumeSlider;
+    public GameObject creditsMenu;
 
     void Start()
     {
@@ -67,6 +68,7 @@ public class Settings : MonoBehaviour
     public void MainMenu()
     {
         settingsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
         mainMenu.SetActive(true);
         spawnCrow.AbleToSpawn();
     }
@@ -81,6 +83,13 @@ public class Settings : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void CreditsMenu()
+    {
+        creditsMenu.SetActive(true);
+        mainMenu.SetActive(false);
+        spawnCrow.Stop();
     }
 
 
